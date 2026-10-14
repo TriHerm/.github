@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible problem in a TriHerm open-source project.
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a problem.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reliable reproduction you can.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, app/version, runtime, and other relevant details.
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, or other non-sensitive context.

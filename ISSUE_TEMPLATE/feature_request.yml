@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a focused improvement to a TriHerm open-source project.
+title: "[Feature]: "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What concrete problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest useful change you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Note existing workarounds or alternatives when relevant.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add examples, references, or non-sensitive supporting context.
